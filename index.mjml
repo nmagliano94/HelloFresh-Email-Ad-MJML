@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-font name="Nunito Sans" href="https://fonts.googleapis.com/css2?family=Nunito+Sans" />
+      <mj-text font-family="Nunito Sans, sans-serif" color="#484546" padding="0" />
+      <mj-image padding="0" />
+      <mj-section padding="0" background-color="#FFFBF5" />
+    </mj-attributes>
+
+    <mj-style>
+      @media (max-width: 480px) {
+
+        .box-image table tbody tr td {
+          padding: 0px 5px 0px 5px !important;
+        }
+
+        .app-image table tbody tr td {
+          padding: 0px 5px 0px 5px !important;
+        }
+
+        .why-header table tbody tr td {
+          padding-top: 15px !important;
+        }
+
+        .why-details table tbody tr td {
+          padding: 0 10px 0 10px !important;
+        }
+
+        .mobile-none div {
+          display: none !important;
+        }
+
+        .download div {
+          font-size: 32px !important;
+          padding: 0 10px 0 10px
+        }
+
+        .google-play img {
+          margin-left: 11px !important;
+        }
+
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f1f1f1">
+    <mj-raw>
+      <!-- Logo Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/ZRg8tGn0/logo1.png" alt="hellofresh logo" href="https://www.hellofresh.com">
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Message Section -->
+    </mj-raw>
+    <mj-section padding="0 15px 0px 15px">
+      <mj-column>
+        <mj-text padding-bottom="10px" font-size="35px" font-weight="600" line-height="40px" align="center">
+          Take the stress out of mealtime!
+        </mj-text>
+        <mj-text font-size="22px" font-weight="300" align="center" padding-bottom="25px">
+          America's #1 Meal Kit delivered straight to your door.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Box Image Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column css-class="box-image" width="550px">
+        <mj-image src="https://i.postimg.cc/W3tGyN2Q/box.jpg" alt="table with food" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Button Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="25px 10px 5px 10px" font-size="24px" align="center">
+          Just for today, use code <span style="font-weight:700; color:#000000">"FRESH"</span>
+          <br> at checkout for <span style="font-weight:700; color:#000000;">free shipping.</span>
+        </mj-text>
+        <mj-button href="https://www.hellofresh.com" background-color="#5EB933" font-size="20px" border-radius="18px" padding="15px 0 20px 0">
+          Shop Now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Why Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column css-class="why-header">
+        <mj-text padding="20px" font-size="32px" font-weight="600" align="center">
+          Why HelloFresh?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/sgRJ2Cch/icn1.png" width="150px" alt="ingredients icon" align="center" padding-top="20px" padding-bottom="15px">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="why-details">
+      <mj-column width="300px">
+        <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
+          Ingredients You Can Trust
+        </mj-text>
+        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="10px">
+          Top quality ingredients with a wide variety of meats, vegetables, and plant-based protein to choose from.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/tRYkS5JY/icn2.png" alt="calender icon" width="150px" align="center" padding="20px">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="why-details">
+      <mj-column width="300px">
+        <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
+          No Commitment Required
+        </mj-text>
+        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="15px">
+          Skipping weeks or cancelling is super easy and stress free.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/t7GCjJp7/icn3.png" alt="star icon" width="150px" align="center" padding-bottom="15px">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="why-details">
+      <mj-column width="300px">
+        <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
+          The Most 5 Star Reviews
+        </mj-text>
+        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="15px">
+          The results are in...start building your order today and find out what everyone has been raving about!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/PqXzmb0f/icn4.png" alt="food icon" width="150px" align="center" padding-bottom="15px">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="why-details">
+      <mj-column width="300px">
+        <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
+          Fresh and Affordable
+        </mj-text>
+        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="20px">
+          Chef-created deliciousness starting from $7.50 per meal.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- App Image Section -->
+    </mj-raw>
+    <mj-section padding="25px 0 32px 0">
+      <mj-column css-class="app-image" width="550px">
+        <mj-image src="https://i.postimg.cc/Nj7k9CJP/app.jpg" alt="app image">
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- App Button Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="download" align="center" font-size="32px" font-weight="700" padding-bottom="5px">
+          Download the app
+        </mj-text>
+        <mj-text css-class="mobile-none" align="center" font-size="22px">
+          Manage your deliveries from anywhere, anytime.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 0 15px 0">
+      <mj-column width="150px" padding-left="20px" padding-top="15px">
+        <mj-image css-class="app-store" src="https://i.postimg.cc/gjZkQ89f/appstore.png" href="https://www.apple.com" width="130px" alt="app store logo">
+      </mj-column>
+      <mj-column width="150px" padding-top="5px">
+        <mj-image css-class="google-play" src="https://i.postimg.cc/15FHP3pS/googleplay.png" href="https://www.google.com" width="150px" height="64px" alt="google play logo">
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
