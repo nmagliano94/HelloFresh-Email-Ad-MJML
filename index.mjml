@@ -1,13 +1,23 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-font name="Nunito Sans" href="https://fonts.googleapis.com/css2?family=Nunito+Sans" />
-      <mj-text font-family="Nunito Sans, sans-serif" color="#484546" padding="0" />
+      <mj-text font-family="Arial, sans-serif" color="#484546" padding="0" />
       <mj-image padding="0" />
       <mj-section padding="0" background-color="#FFFBF5" />
     </mj-attributes>
 
+    <mj-style inline="inline">
+      .footer-links {
+        color: #000000;
+        font-size: 10px;
+      }
+    </mj-style>
+
     <mj-style>
+      .btn-dark a:hover {
+        color: #484546 !important;
+      }
+
       @media (max-width: 480px) {
 
         .box-image table tbody tr td {
@@ -23,7 +33,7 @@
         }
 
         .why-details table tbody tr td {
-          padding: 0 10px 0 10px !important;
+          padding: 5px 10px 5px 10px !important;
         }
 
         .mobile-none div {
@@ -35,10 +45,13 @@
           padding: 0 10px 0 10px
         }
 
-        .google-play img {
-          margin-left: 11px !important;
+        .app-store img {
+          margin-left: -9px !important;
         }
 
+        .google-play img {
+          margin-left: 2px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -85,7 +98,7 @@
           Just for today, use code <span style="font-weight:700; color:#000000">"FRESH"</span>
           <br> at checkout for <span style="font-weight:700; color:#000000;">free shipping.</span>
         </mj-text>
-        <mj-button href="https://www.hellofresh.com" background-color="#5EB933" font-size="20px" border-radius="18px" padding="15px 0 20px 0">
+        <mj-button css-class="btn-dark" href="https://www.hellofresh.com" background-color="#5EB933" font-size="20px" border-radius="18px" padding="15px 0 20px 0">
           Shop Now
         </mj-button>
       </mj-column>
@@ -121,7 +134,7 @@
         <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
           Ingredients You Can Trust
         </mj-text>
-        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="10px">
+        <mj-text font-size="18px" align="center" line-height="16px" padding-bottom="10px">
           Top quality ingredients with a wide variety of meats, vegetables, and plant-based protein to choose from.
         </mj-text>
       </mj-column>
@@ -137,7 +150,7 @@
         <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
           No Commitment Required
         </mj-text>
-        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="15px">
+        <mj-text font-size="18px" align="center" line-height="16px" padding-bottom="15px">
           Skipping weeks or cancelling is super easy and stress free.
         </mj-text>
       </mj-column>
@@ -153,7 +166,7 @@
         <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
           The Most 5 Star Reviews
         </mj-text>
-        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="15px">
+        <mj-text font-size="18px" align="center" line-height="16px" padding-bottom="15px">
           The results are in...start building your order today and find out what everyone has been raving about!
         </mj-text>
       </mj-column>
@@ -169,7 +182,7 @@
         <mj-text align="center" font-size="18px" font-weight="700" padding-bottom="10px">
           Fresh and Affordable
         </mj-text>
-        <mj-text font-size="18px" align="center" line-height="1.2" padding-bottom="20px">
+        <mj-text font-size="18px" align="center" line-height="16px" padding-bottom="20px">
           Chef-created deliciousness starting from $7.50 per meal.
         </mj-text>
       </mj-column>
@@ -197,14 +210,66 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 0 15px 0">
+
+    <mj-section padding="10px 0px 10px 0px">
       <mj-column width="150px" padding-left="20px" padding-top="15px">
-        <mj-image css-class="app-store" src="https://i.postimg.cc/gjZkQ89f/appstore.png" href="https://www.apple.com" width="130px" alt="app store logo">
+        <mj-image css-class="app-store" align="center" src="https://i.postimg.cc/gjZkQ89f/appstore.png" href="https://www.apple.com" width="130px" alt="app store logo">
       </mj-column>
       <mj-column width="150px" padding-top="5px">
-        <mj-image css-class="google-play" src="https://i.postimg.cc/15FHP3pS/googleplay.png" href="https://www.google.com" width="150px" height="64px" alt="google play logo">
+        <mj-image align="center" css-class="google-play" src="https://i.postimg.cc/15FHP3pS/googleplay.png" href="https://www.google.com" width="150px" height="64px" alt="google play logo">
       </mj-column>
     </mj-section>
 
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-top="10px">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center">
+            © HelloFresh 2023
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer/Social Icon Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-social icon-size="25px" mode="horizontal" padding="10px 0px" align="center">
+          <mj-social-element name="facebook" href="https://www.facebook.com">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://www.twitter.com">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="15px" padding-left="35px" padding-right="35px">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center">
+            <mj-raw>
+              <a class="footer-links" href="https//www.hellofresh.com">Terms and Conditions</a> |
+              <a class="footer-links" href="https://www.hellofresh.com">Privacy</a> |
+              <a class="footer-links" href="https://www.hellofresh.com">Accessibility</a> |
+              <a class="footer-links" href="https://www.hellofresh.com">Unsubscribe</a>
+            </mj-raw>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
   </mj-body>
 </mjml>
